@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  border: 2px solid red;
+  padding: 10px;
+  background-color: gray;
+  display: flex;
+  justify-content: space-between;
+}
+
+.socialmediaforicon {
+  margin-left: 15px;
+  padding: 15px;
+}
+
+.socialmediaforicon i {
+  font-size: 50px;
+  color: blue;
+}
+
+/* .fab .fa-facebook-square {
+  color: blue;
+} */
+
+.top-img1 {
+  border: 10px solid white;
+  background: url("assets/top-image.png");
+  height: 300px;
+  background-size: cover;
+  z-index: 10;
+}
+
+/* .top-img2 {
+  background: url("assets/peralta-logo.png");
+  height: 170px;
+  width: 200px;
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: left center;
+  position: absolute;
+  z-index: 11;
+} */
+
+#test {
+  position: relative;
+  margin-top: 50px;
+}
+.img1 {
+  height: 200px;
+  /* width: 100%; */
+  /* margin-left: 20px; */
+  position: absolute;
+  top: 80px;
+  left: 20px;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.items {
+  border: 3px solid blue;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 80%;
+}
+#item1 {
+  position: relative;
+  height: 35px;
+  background-color: red;
+  border-radius: 4px;
+  text-align: center;
+  width: 200px;
+  cursor: pointer;
+  border: none;
+}
+
+#item2 {
+  position: relative;
+  border: 3px solid blue;
+  height: 35px;
+  background-color: red;
+  border-radius: 4px;
+  text-align: center;
+  width: 220px;
+  cursor: pointer;
+  border: none;
+}
+
+#item3 {
+  position: relative;
+  border: 3px solid blue;
+  height: 35px;
+  background-color: red;
+  border-radius: 4px;
+  text-align: center;
+  width: 220px;
+  cursor: pointer;
+  border: none;
+}
+
+#item4 {
+  position: relative;
+  border: 3px solid blue;
+  height: 35px;
+  background-color: red;
+  border-radius: 4px;
+  text-align: center;
+  width: 220px;
+  cursor: pointer;
+  border: none;
+}
+
+#card {
+  height: 300px;
+  background-color: pink;
+  margin-bottom: 20px;
+}
+
+#mosaic {
+  position: relative;
+}
+
+#mosaic1 {
+  width: 40%;
+  height: 150px;
+  border: 3px solid white;
+  background: url("./assets/sk8er-4.png");
+  position: absolute;
+  /* background-size: 159%; */
+  background-position-x: -80px;
+  background-position-y: 2px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0;
+}
+
+#mosaic2 {
+  width: 35%;
+  height: 150px;
+  border: 3px solid white;
+  background: url("./assets/sk8er-3.png");
+  position: absolute;
+  background-size: cover;
+  background-position-x: -50px;
+  background-position-y: 3px;
+  top: 0;
+  left: 35%;
+}
+
+#mosaic3 {
+  width: 35%;
+  height: 300px;
+  border: 3px solid white;
+  background: url("./assets/sk8er-2.png");
+  position: absolute;
+  /* background-size: 400%; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: -270px;
+  background-position-y: 0px;
+  top: 0;
+  right: 0;
+}
+
+#mosaic4 {
+  width: 33%;
+  height: 50%;
+  border: 5px solid white;
+  background: url("./assets/sk8er-1.png");
+  position: absolute;
+  /* background-size: 400%; */
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+  /* background-position-x: -270px; */
+  /* background-position-y: -300px; */
+  top: 0;
+  left: 0;
+}
