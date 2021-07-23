@@ -3,7 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+body {
+  background-image: url("./assets/bg.jpg");
+}
 nav {
   border: 2px solid red;
   padding: 10px;
@@ -119,13 +121,13 @@ main {
 }
 
 #card {
-  height: 300px;
-  background-color: pink;
+  background-color: rgb(143, 134, 136);
   margin-bottom: 20px;
 }
 
 #mosaic {
   position: relative;
+  height: 300px;
 }
 
 #mosaic1 {
@@ -171,16 +173,110 @@ main {
 }
 
 #mosaic4 {
-  width: 33%;
-  height: 50%;
+  width: 65%;
+  height: 150px;
   border: 5px solid white;
   background: url("./assets/sk8er-1.png");
   position: absolute;
-  /* background-size: 400%; */
-  /* background-size: cover; */
-  /* background-repeat: no-repeat; */
-  /* background-position-x: -270px; */
-  /* background-position-y: -300px; */
-  top: 0;
+  background-size: cover;
+
+  background-position-x: -1060px;
+  background-position-y: -23px;
+
+  bottom: 0;
   left: 0;
+}
+
+.paragrafgrid {
+  height: 270px;
+  width: 100%;
+
+  display: grid;
+  border: 1px solid black;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 2px;
+  grid-template-areas: "a b c";
+  position: relative;
+}
+#grid1 {
+  grid-area: a;
+  border: 1px solid gray;
+  background-color: rgb(213, 218, 213);
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+#grid2 {
+  grid-area: b;
+  border: 1px solid gray;
+  background-color: rgb(213, 218, 213);
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+#grid3 {
+  grid-area: c;
+  border: 1px solid rgb(88, 82, 82);
+  background-color: rgb(213, 218, 213);
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+#btn1 {
+  /* display: flex; */
+  width: 100px;
+  border: none;
+  padding: 6px 12px;
+
+  cursor: pointer;
+  /* background: none; */
+}
+.conter {
+  height: 300px;
+  width: 100%;
+  border: 2px solid red;
+  display: flex;
+  flex-direction: columns;
+  justify-content: space-around;
+  align-items: center;
+  /* position: absolute; */
+}
+
+.footer {
+  height: 200px;
+  width: 100%;
+  display: grid;
+  background-color: rgb(236, 243, 243);
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 3fr;
+  grid-template-areas: "a b";
+}
+
+#gridefooter1 {
+  border: 3px solid rgb(86, 86, 92);
+  grid-template-areas: a;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#gridefooter2 {
+  border: 3px solid rgb(86, 86, 92);
+  grid-template-areas: b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
 }
